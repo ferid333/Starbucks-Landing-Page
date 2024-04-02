@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+body{
+    position: relative;
+}
+.greens{
+    position: absolute;
+    left: 1100px;
+    top: 350px;
+    z-index: -1;
+    background-color: green;
+    width: 1500px;
+    height: 2000px;
+    border-radius: 50%;
+   
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbaritem{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0 30px;
+  
+}
+.logo{
+    padding: 10px;
+    width: 110px;
+    margin-left: 60px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+.navbaritem li{
+    margin-right: 30px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.navbaritem li:hover{
+    opacity: .8;
+}
+.main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:50px ;
+    z-index: -1;
+}
+.content{
+    height: 400px;
+    max-width:650px;
+    margin-left:65px ;
+}
+.content p:first-child{
+    font-size:4rem ;
+}
+.wrt{
+    letter-spacing: .5px;
+    margin-top: 7px;
+    font-weight: 500;
+}
+.learn{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: green;
+    padding: 10px;
+    border-radius:1.5rem ;
+    margin-left: 6px;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 1.1rem;
+}
+.lestside{
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+ width: 400px;
+   margin-right:100px;
+   margin-top: -10px;
+}
+.photo img{
+    width: 400px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.socialmedia i{
+    margin-bottom: 12px;
+    cursor: pointer;
+
+}
+.btns{
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+.btns img{
+    width: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 15px;
+    padding: 30px 0;
+    
+ 
+   
+}
+ .btns img:hover{
+    transform: translateY(-30px);
+    position: relative;
+    z-index: 1;
+    
+}
+@media only screen and (max-width: 1300px) {
+    .photo {
+      display: none;
+    }
+  } 
